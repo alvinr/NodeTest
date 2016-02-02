@@ -1,0 +1,23 @@
+{
+  "name": "node_couch_test",
+  "version": "2.0.0",
+  "description": "",
+  "main": "testapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cluster": "*",
+    "couchbase": "^2.1.2",
+    "express": "*",
+    "mongodb": "^2.1.4",
+    "request": "*",
+    "assert": "*"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
