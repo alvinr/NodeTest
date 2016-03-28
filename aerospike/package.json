@@ -1,0 +1,22 @@
+{
+  "name": "node_aerospike_test",
+  "version": "2.0.0",
+  "description": "",
+  "main": "testapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cluster": "*",
+    "couchbase": "^3.7.5",
+    "express": "*",
+    "request": "*",
+    "assert": "*"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

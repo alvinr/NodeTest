@@ -1,0 +1,11 @@
+app:
+  build: .
+  ports:
+   - "5000:5000"
+  links:
+   - aerospike
+  hostname: dev.myapp.com
+  environment:
+    - AEROSPIKE_HOST=dev_aerospike_1   
+aerospike:
+  image: aerospike/aerospike-server:latest
